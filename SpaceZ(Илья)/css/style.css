@@ -1,0 +1,137 @@
+body {
+    margin: 0;
+    padding: 0;
+  
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000;
+  
+    background-color: #ffffff;
+    
+    display: flex;
+    flex-direction: column;
+  }
+
+.gray {
+    background-color: #222222;
+
+}
+
+.section_features {
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+}
+
+.advantagers {
+
+    color: white;
+}
+
+.block10 li::before{
+    
+    content: "";
+    position: absolute;
+    left: -25px;
+    top: 5px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #feca30;
+    
+}
+
+footer {
+
+    background-color: black;
+}
+
+.btn {
+    position: relative;
+  
+    display: inline-block;
+    width: 195px;
+    padding: 0 25px;
+  
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 50px;
+    text-decoration: none;
+    text-transform: uppercase;
+    vertical-align: top;
+    color: #222222;
+  
+    cursor: pointer;
+    border: none;
+    border-radius: 50px;
+  }
+
+.btn-yellow {
+    background-color: #feca30;
+  }
+
+ .btn::after {
+    content: "";
+  
+    position: absolute;
+    right: 20px;
+    top: 17px;
+  
+    width: 19px;
+    height: 16px;
+  
+    background-image: url(../img/right-arrow-dark.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+  }
+
+.section_features {
+    padding: 85px 0;
+  
+    background-color: #131313;
+  
+    color: #ffffff;
+  }
+  
+  .features-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  
+    margin: 0;
+    padding: 0;
+  
+    list-style: none;
+  }
+  
+  .features-list li {
+    position: relative;
+  
+    width: 180px;
+    margin-right: 80px;
+    padding-top: 100px;
+  
+    font-size: 14px;
+    line-height: 20px;
+    color: #d4d4d4;
+  }
+  
+  .features-list li::after {
+    content: "";
+  
+    position: absolute;
+    top: 0;
+    left: 0;
+  
+    width: 60px;
+    height: 68px;
+  }
+
+.block9 {
+    margin-top: 0;
+    margin-bottom: 50px;
+  
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+  }
